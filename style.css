@@ -11,6 +11,12 @@
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
+p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .calculadora{
     position: absolute;
     background-color: rgba(0, 0, 0, 1);
